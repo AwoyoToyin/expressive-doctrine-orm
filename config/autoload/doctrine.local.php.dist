@@ -1,0 +1,19 @@
+<?php
+
+return [
+    'doctrine' => [
+        'connection' => [
+            'orm_default' => [
+                'params' => [
+                    'url' => 'mysql://root:p455w0rd@localhost/expressive',
+                ],
+            ],
+        ],
+        'configuration' => [
+            'orm_default' => [
+                'metadata_cache' => 'apcu',
+                'query_cache' => 'apcu'
+            ]
+        ],
+    ],
+];
